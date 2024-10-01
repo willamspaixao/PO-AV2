@@ -4,7 +4,10 @@ public class HorarioTurma {
 	private int diaSemana, ano,semestre;
 	private Date horaInicio, horaFim;
 	
-	private Turma turma = new Turma();
+	public HorarioTurma()
+	{
+
+	}
 
 	public int getDiaSemana() {
 		return diaSemana;
