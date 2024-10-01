@@ -6,6 +6,7 @@ public class Turma {
 	private int anoTurma;
 	private ArrayList<Estudante> estudantes = new ArrayList<>();
 	Curso curso= new Curso();
+	HorarioTurma horarioTurma= new HorarioTurma();  //implementar
 	public int getAnoTurma() {
 		return anoTurma;
 	}
